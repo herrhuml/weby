@@ -1,0 +1,50 @@
+body{
+    background-color: #121212;
+}
+.container-fluid{
+    
+    text-align: center;
+    color: #ffffff;
+}
+.container-fluid h4{
+    color: #ffffff;
+}
+.customCenter{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+h1{
+    color: mediumvioletred;
+}
+h2{
+    color: mediumvioletred;
+}
+h3{
+    color: mediumvioletred;
+}
+h4{
+    color: mediumvioletred;
+}
+h5{
+    color: mediumvioletred;
+}
+h6{
+    color: mediumvioletred;
+}
+a:link{
+    text-decoration: none;
+    color: #02f7f7;
+}
+a:visited{
+    text-decoration: none;
+    color: #02f7f7;
+}
+a:hover{
+    text-decoration: none;
+    color: #02f7f7;
+}
+a:active{
+    text-decoration: none;
+    color: #02f7f7;
+}
