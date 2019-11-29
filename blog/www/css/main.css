@@ -1,18 +1,31 @@
 body{
     background-color: #121212;
 }
-.container-fluid{
-    
-    text-align: center;
-    color: #ffffff;
-}
-.container-fluid h4{
-    color: #ffffff;
-}
 .customCenter{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+}
+.container-fluid h4{
+    color: #ffffff;
+}
+.container-fluid a{
+    color: #ffffff;
+}
+.container-fluid div{
+    color: #ffffff;
+}
+.container-fluid span{
+    color: #ffffff;
+}
+.container-fluid p{
+    color: #000000;
+}
+.container-fluid th{
+    color: #ffffff;
+}
+.container-fluid{
+    text-align: center;
 }
 h1{
     color: mediumvioletred;

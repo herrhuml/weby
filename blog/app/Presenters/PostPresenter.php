@@ -31,12 +31,16 @@ class PostPresenter extends Nette\Application\UI\Presenter
         $form = new Form; // Nette\Application\UI\Form
         
         $form->addText('name','Jméno:')
-            ->setRequired();
-        
-        $form->addEmail('email','Email:');
-        
+            ->setRequired()
+            ->setHtmlAttribute('autocomplete','off');
+
+        $form->addEmail('email','Email:')
+            ->setHtmlAttribute('autocomplete','off');
+            
         $form->addTextArea('content','Komentář')
-            ->setRequired();
+            ->setRequired()
+            ->setHtmlAttribute('class','editor')
+            ->setHtmlAttribute('autocomplete','off');
 
         $form->addSubmit('send','Publikovat komentář');
         
@@ -55,7 +59,7 @@ class PostPresenter extends Nette\Application\UI\Presenter
             'post_id' => $postId,
             'name' => $values->name,
             'email' => $values->email,
-            'content' => $values->content,
+            'content' => strip_tags($values->content),
         ]);
 
         $this->flashMessage('Thanks for the comment','success');

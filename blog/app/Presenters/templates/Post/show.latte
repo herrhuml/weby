@@ -12,8 +12,15 @@
     <br><br><br><br><br><br><br><br>
     <div class="container-fluid">
         {foreach $comments as $comment}
-            <p><b><a href="mailto:{$comment->email}" n:tag-if="$comment->email">{$comment->name}</a></b> napsal:</p>
-            <div>{$comment->content}</div>
+            <span><b><a href="mailto:{$comment->email}" n:tag-if="$comment->email">{$comment->name}</a></b>:</span>
+            <div>{$comment->content}</div><br>
         {/foreach}
     </div>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '.editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
 {/block}
