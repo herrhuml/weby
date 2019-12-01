@@ -1,0 +1,15 @@
+{block content}
+<br>
+	<div class="container-fluid">
+		{var $c=0}
+		{foreach $pics as $pic}
+			{if $c==5} {var $c=0}
+				<br><br>
+			{/if}
+			<a href="{$basePath}/images/{$pic->thumbnail_name}" data-lightbox="album" data-title="{$pic->caption}">
+				<img src="{$basePath}/images/{$pic->fullpic_name}">
+			</a>
+		{var $c+=1}
+		{/foreach}
+	</div>
+{/block}

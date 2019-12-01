@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    background-color: #121212;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #161616;
+    text-align: center;
+}
+.customCenter{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.container-fluid h4{
+    color: #ffffff;
+}
+.container-fluid a{
+    color: #ffffff;
+}
+.container-fluid div{
+    color: #ffffff;
+}
+.container-fluid span{
+    color: #ffffff;
+}
+.container-fluid p{
+    color: #000000;
+}
+.container-fluid th{
+    color: #ffffff;
+}
+.container-fluid{
+    text-align: center;
+}
+h1{
+    color: mediumvioletred;
+}
+h2{
+    color: mediumvioletred;
+}
+h3{
+    color: mediumvioletred;
+}
+h4{
+    color: mediumvioletred;
+}
+h5{
+    color: mediumvioletred;
+}
+h6{
+    color: mediumvioletred;
+}
+a:link{
+    text-decoration: none;
+    color: #02f7f7;
+}
+a:visited{
+    text-decoration: none;
+    color: #02f7f7;
+}
+a:hover{
+    text-decoration: none;
+    color: #02f7f7;
+}
+a:active{
+    text-decoration: none;
+    color: #02f7f7;
+}
+nav{
+    color:mediumvioletred;
+}
+.mini{
+    font-size: small;
+}
