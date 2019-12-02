@@ -36,7 +36,7 @@ class GuestbookPresenter extends Nette\Application\UI\Presenter
 
         $form->addSubmit('send','Postnout');
 
-        $form->getElementPrototype()->class = 'customCenter';
+        $form->getElementPrototype()->class = 'justify-content-center';
 
         $form->onSuccess[] = [$this, 'commentFormSuccess'];
 

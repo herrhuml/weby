@@ -7,7 +7,12 @@
             <span class="mini">{$comment->date_added|date:'%d.%m.%Y %H:%M'}</span><br>
         {/foreach}
         <br><h4>Vložte nový příspěvek</h4><br>
-        {control commentForm}
+       
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+         {control commentForm}
+        </div>
     </div>
     <script>
         ClassicEditor

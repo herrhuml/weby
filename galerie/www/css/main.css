@@ -4,7 +4,8 @@ html {
   }
 body {
     background-color: #121212;
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    min-height: 100%;
+    margin-bottom: 120px;
   }
 .footer {
     position: absolute;
@@ -16,9 +17,14 @@ body {
     text-align: center;
 }
 .customCenter{
-    position: absolute;
+    position: relative;
+    
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
+    
+}
+.container-fluid{
+    margin: auto;
 }
 .container-fluid h4{
     color: #ffffff;
