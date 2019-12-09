@@ -1,5 +1,6 @@
 html{
     background-color: #4b4b4b;
+    background-image: url('../images/bodybackground.jpg');
     height: 100%;
 }
 body{
@@ -7,6 +8,7 @@ body{
     font-family: Calibri;
     color: white;
     background-color: #5f5f5f;
+    
     width: 700px;
     height: 100%;
     margin: auto;
