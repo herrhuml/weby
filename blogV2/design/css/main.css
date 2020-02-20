@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #0E0B16;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #E7DFDD;
+}
+
+li, a, button, p{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #E7DFDD;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #E7DFDD;
+}
+
+h1:hover{
+    cursor: default;
+}
+
+p{
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;  
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: rgb(0, 161, 201);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 161, 201, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.button{
+    color: #E7DFDD;
+    padding: 9px 25px;
+    background-color: rgba(0, 161, 201, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.button:hover{
+    background-color: rgba(0, 161, 201, 0.7);
+}
+button:hover{
+    background-color: rgba(0, 161, 201, 0.7);
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article-header{
+    transition: all 0.3s ease 0s;
+}
+
+.article-header:hover{
+    color: rgb(0, 161, 201);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+
+.flex-child{
+    padding: 10px;
+    flex: 1 1 21%;
+}
+
+.ck>p{
+    color: black;
+}
+
+.aHover:hover{
+    cursor: pointer;
+}
+
+
+/*.flex-ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.flex-li {
+    height: 40vh;
+    flex-grow: 1;
+  }
+  
+.flex-img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }*/
+  
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #E7DFDD;
+  }
+
+  th, td{
+    padding: 5px;
+  }
